@@ -1,0 +1,17 @@
+# Environment variables (NEVER commit API keys!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Database (optional - you might want to commit the schema but not data)
+*.db
