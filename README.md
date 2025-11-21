@@ -27,3 +27,15 @@ Automated ETL pipeline collecting real-time weather data from the 100 largest Ge
 
 ---
 *Portfolio project - Part of data engineering learning path*
+
+## Recent Updates
+- ✅ Wikipedia historical events scraper added
+- ✅ Daily automated scraping at 3 AM
+- ✅ Collecting events from "On This Day" Wikipedia pages
+- ✅ Dual data sources: Real-time weather + Historical events
+
+## Database Schema
+### Tables
+- `raw_weather`: Weather observations with temperature, humidity, wind, pressure
+- `historical_events`: Historical events by date with year and description
+
