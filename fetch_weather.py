@@ -105,7 +105,7 @@ def main():
             failure_count += 1
         
         # Rate limiting: OpenWeatherMap free tier allows 60 calls/minute
-        # Sleep for 1 second between requests to be safe
+        # Sleep for 1 second between requests just in case
         if i < len(GERMAN_CITIES):
             time.sleep(1)
     
