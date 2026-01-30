@@ -120,6 +120,7 @@ def insert_events(events):
                 INSERT INTO historical_events 
                 (event_date, event_year, event_description, event_category, source_url)
                 VALUES (%s, %s, %s, %s, %s)
+                ON CONFLICT (event_date, event_description) DO NOTHING
             """
             
             cursor.execute(query, (
